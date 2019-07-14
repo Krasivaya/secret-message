@@ -1,0 +1,66 @@
+.d {
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(53, 54, 54);
+    padding: 20px 20px 0px 20px;
+    margin: 30px 20px 0px 20px;
+    width: 50%;
+    background-color: #fff;
+    border: 1.5px solid rgb(156, 198, 233);
+    border-radius: 20px;
+    word-break: break-all;
+  } 
+  .d:focus, .button:focus {
+      outline: 0;
+  }
+
+  body {
+    background: rgb(1, 25, 48);
+  }
+  
+  .secret {
+    margin: 70px auto;
+    background-color: rgb(14, 92, 122);
+    color: #fff;
+    padding: 20px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1{
+    font-family: cursive, Helvetica, sans-serif;
+  }
+  h2 {
+    font-family: cursive, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .button{
+    background-color: rgb(12, 113, 180);
+    border: 0;
+    border-radius: 20px;
+    box-shadow:0px 0px 20px rgb(141, 162, 194);
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+    width: 15%;
+    color: #fff;
+  }
+  .button:hover {
+      background-color: #fff;
+      color:  rgb(12, 113, 180);
+  }
+  
+  .firstRect, .secondRect {
+    background-color: rgb(128, 186, 204);
+    border: 1.5px solid #fff;
+    width: 30%;
+    text-align: center;
+
+  }
+  .output {
+    margin-bottom: 30px;
+    padding-bottom: 30px
+  }
